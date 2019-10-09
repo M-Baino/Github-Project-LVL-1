@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import Add from './components/Add';
+import Table from './components/Table';
+
 
 export default class App extends Component {
   state = {
@@ -21,6 +24,8 @@ export default class App extends Component {
     return (
       <div style={{ border: 'black 1px solid' }}>
         <h6>App</h6>
+        <Add/>
+        <Table/>
       </div>
     );
   }
